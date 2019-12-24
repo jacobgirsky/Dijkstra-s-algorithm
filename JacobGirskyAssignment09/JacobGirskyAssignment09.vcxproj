@@ -110,6 +110,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="JacobGirskyGraph.cpp" />
+    <ClCompile Include="undirectedGraph.cpp" />
+    <ClCompile Include="weightedGraph.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.hpp" />
+    <ClInclude Include="undirectedGraph.h" />
+    <ClInclude Include="weightedGraph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
