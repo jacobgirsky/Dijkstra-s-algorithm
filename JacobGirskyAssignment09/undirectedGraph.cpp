@@ -46,8 +46,7 @@ void UndirectedGraph::set(int i, int j)
 * postcondition - none
 */
 LinkedList<int> UndirectedGraph::dijkstra(int start, int finish) const
-{
-	
+{	
 	int numVerticies = GetNumVertices();
 
 	int *distances = new int[numVerticies];
